@@ -2,7 +2,6 @@ import React from 'react'
 
 import './growl.css'
 import { useEffect } from 'react'
-// import { useEffect } from 'react'
 
 export const Growl = ({ active, message, onDismissed }) => (
   <div className={`growl${active ? " active" : ""}`}>
