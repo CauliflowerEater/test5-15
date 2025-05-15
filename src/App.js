@@ -6,7 +6,7 @@ import './App.css'
 import { useGrowl, Growl } from './growl'
 
 function App() {
-	const [active, setActive] = useGrowl()
+	const [active, setActive] = useGrowl(100);
 
 	return (
 		<div className="App">
